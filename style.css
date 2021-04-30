@@ -215,13 +215,14 @@ header{
     #mobile{
         display: block;
         max-width: 120%;
-        margin-left: -100px;
+        margin-left: -95px;
     }
 
     .descritpion{
-        max-width: 200%;
+        max-width: 160%;
         margin-top: 100px;
-        margin-left: -120px;
+        margin-left: -140px;
+        text-align: center;
     }
 
     .descritpion h1{
