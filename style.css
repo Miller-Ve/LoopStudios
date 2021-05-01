@@ -281,4 +281,15 @@ header{
     .images{
         display: none;
     }
+
+    .oru{
+        margin-left: -50px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .creations input{
+        position: relative;
+        top: 1420px;
+    }
 }
