@@ -8,6 +8,8 @@ header{
     background-repeat: no-repeat;
     min-height: 600px;
     position: relative;
+    background-size: 100% 100%;
+    max-width: 100%;
 }
 
 #logo{
@@ -93,7 +95,7 @@ header{
 
 .descritpion{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin-left: 670px;
     margin-top: -250px;
 }
@@ -315,6 +317,7 @@ header{
         margin-left: 35px;
         font-size: 20px;
         color: white;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
     .images{
