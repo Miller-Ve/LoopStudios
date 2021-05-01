@@ -308,7 +308,7 @@ header{
         cursor: pointer;
     }
 
-    #mobile-input{
+    #mobile-input:hover{
         background-color: black;
         color: white;
     }
