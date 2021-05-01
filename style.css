@@ -141,7 +141,7 @@ header{
     cursor: pointer;
 }
 
-.creations input:hover{
+.creations #input-desktop:hover{
     background-color: black;
     color: white;
 }
@@ -158,10 +158,6 @@ header{
     text-decoration: none;
 }
 
-.image-two a p:hover{
-    color: black;
-}
-
 .context{
     position: relative;
     top: -120px;
@@ -169,7 +165,11 @@ header{
     left: 15%;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
+
+}
+
+.context:hover{
+    color: rgb(161, 161, 161);
 }
 
 .images-mobile{
