@@ -308,4 +308,9 @@ header{
         cursor: pointer;
     }
 
+    #mobile-input{
+        background-color: black;
+        color: white;
+    }
+
 }
