@@ -167,6 +167,7 @@ header{
     left: 15%;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
+    max-width: 60%;
 
 }
 
@@ -180,6 +181,80 @@ header{
 
 #mobile-input{
     display: none;
+}
+
+
+footer{
+    background-color: black;
+    max-width: 100%;
+    min-height: 180px;
+    margin-top: 200px;
+}
+
+#logo-footer{
+    margin-top: 50px;
+    margin-left: 105px;
+}
+
+.menu-footer{
+    margin-left: 85px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-footer li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: 'Alata', sans-serif;
+}
+
+.menu-footer a::after{
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 3px;
+    bottom: -13px;
+    left: 0;
+    width: 0;
+    transition: .3s;
+}
+
+.menu-footer a:hover::after{
+    width: 100%;
+}
+
+.icons{
+    float: right;
+    margin-right: 105px;
+    margin-top: -80px;
+    position: relative;
+    font-size: 30px;
+}
+
+.fab{
+    color: white;
+    text-decoration: none;
+}
+
+.fab::after{
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: 0;
+    width: 0;
+    bottom: -13px;
+    height: 3px;
+    transition: .3s;
+}
+
+.fab:hover::after{
+    width: 100%;
 }
 
 
@@ -349,6 +424,35 @@ header{
     #mobile-input:hover{
         background-color: black;
         color: white;
+    }
+
+    /*footer*/
+
+    footer{
+        min-height: 400px;
+    }
+
+    #logo-footer{
+        position: relative;
+        left: 26%;
+        margin-left: 0px;
+    }
+
+    .menu-footer{
+        flex-direction: column;
+        text-align: center;
+        margin-left: -0px;
+    }
+
+    .menu-footer li{
+        padding: 10px 0;
+    }
+
+    .icons{
+        float: none;
+        margin-right: 0px;
+        text-align: center;
+        margin-top: 20px;
     }
 
 }
